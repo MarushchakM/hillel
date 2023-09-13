@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1e3c6a4-d9d5-4aec-97d8-45aaac7ba8d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson5,1/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson4/index.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,10 +77,11 @@
       <recent name="D:\hillel\lesson3,1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\hillel\lesson5,1" />
+      <recent name="D:\hillel" />
+      <recent name="D:\hillel\lesson4" />
       <recent name="D:\hillel\lesson3,2" />
       <recent name="D:\hillel\lesson3,1" />
-      <recent name="D:\hillel" />
-      <recent name="D:\hillel\lesson2Task2" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -93,7 +95,10 @@
       <workItem from="1693642474069" duration="9536000" />
       <workItem from="1693920264024" duration="774000" />
       <workItem from="1693922185566" duration="5939000" />
-      <workItem from="1694112255308" duration="15542000" />
+      <workItem from="1694112255308" duration="16352000" />
+      <workItem from="1694151456260" duration="1270000" />
+      <workItem from="1694450168519" duration="531000" />
+      <workItem from="1694598505048" duration="4237000" />
     </task>
     <servers />
   </component>

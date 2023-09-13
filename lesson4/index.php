@@ -25,9 +25,8 @@ foreach ($arr as $value){
 }
 echo $max. $br . $min . $br;
 // Те саме тільки за допомогою функцій
-echo index . phpmax($arr) . $br;
-echo index . phpmin($arr) . $br;
-
+echo max($arr) . $br;
+echo min($arr) . $br;
 
 $arrOrder = [];
 $count = count($arr);
