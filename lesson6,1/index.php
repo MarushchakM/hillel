@@ -1,12 +1,13 @@
 <?php
     require_once __DIR__ . "/function.php";
 
+    $fWorck = 'log.txt';
     echo 'Write you message: ';
     $msg = fgets(STDIN);
 
-    getMsg('log.php', $msg);
+    getMsg($fWorck, $msg);
 
-    $readLastLog = readLastLog('log.php');
+    $readLastLog = readLastLog($fWorck);
     echo 'You last massage: ' . $readLastLog;
 
 ?>
