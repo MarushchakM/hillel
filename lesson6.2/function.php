@@ -5,17 +5,18 @@
  * Gets the content and returns the first word of each sentence
  */
     function breakdownStr(string $content) : array{
+
         $getSentences = explode(".", $content);
 
-        foreach ($getSentences as $kay => $value){
-            $getWords = explode(" ", $value);
-            if($kay == 0){
-                $arrWords[] = $getWords[0];
-            }else{
-                $arrWords[] = $getWords[1];
-            }
-
+        foreach ($getSentences as $value){
+            $nevArr[] = trim($value, " ");
         }
-        array_pop($arrWords);
+
+        foreach ($nevArr as $value){
+            $getWords = explode(" ", $value);
+            $arrWords[] = $getWords[0];
+        }
+
         return $arrWords;
     }
+?>

@@ -7,12 +7,12 @@
     include_once 'page.php';
 
     $arrWords = breakdownStr($pageContent);
-    $pageContent = ob_get_clean();
+    $content = ob_get_clean();
 
     foreach ($arrWords as $kay => $value){
         $arrBoldWords[] = "<b>$value</b>";
     }
 
-    $pageContent = str_replace($arrWords, $arrBoldWords, $pageContent );
+    $content = str_replace($arrWords, $arrBoldWords, $pageContent );
 
-    echo $pageContent;
+    echo $content;
