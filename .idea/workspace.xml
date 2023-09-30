@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1e3c6a4-d9d5-4aec-97d8-45aaac7ba8d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson8/todo.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myPhp/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/myPhp/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +117,7 @@
       <workItem from="1695114325750" duration="17594000" />
       <workItem from="1695549774318" duration="1538000" />
       <workItem from="1695551531666" duration="36972000" />
-      <workItem from="1695740655122" duration="23792000" />
+      <workItem from="1695740655122" duration="30031000" />
     </task>
     <servers />
   </component>
