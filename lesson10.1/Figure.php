@@ -4,6 +4,7 @@ abstract class Figure
 {
     abstract public function area();
     abstract public function perimeter();
+    abstract public function getAllParam();
 
     protected float $area;
     protected float $perimetr;

@@ -6,6 +6,7 @@ class Rectangle extends Figure
     private float $height;
 
     protected array $allParam;
+
     protected float $area;
     protected float $perimetr;
 
@@ -14,6 +15,10 @@ class Rectangle extends Figure
     {
         $this->setWidth($width);
         $this->setHeight($height);
+        $this->allParam = [
+            'width' => $this->width,
+            'height' => $this->height
+        ];
     }
 
     public function getWidth(): float
@@ -28,10 +33,7 @@ class Rectangle extends Figure
 
     public function getAllParam(): array
     {
-        $this->allParam = [
-            'width' => $this->width,
-            'height' => $this ->height
-        ];
+        
         return $this->allParam;
     }
 

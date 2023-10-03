@@ -6,6 +6,7 @@ class MainControler
     {
         $figure->area();
         $figure->perimeter();
+        $figure->getAllParam();
     }
 
     public function display(Figure $figure)
